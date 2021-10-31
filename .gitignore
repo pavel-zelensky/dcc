@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Paths
+build/
+bin/
+
+# Visual Studio stuff
+.vs/
+*.vcxproj.user
+*.aps
