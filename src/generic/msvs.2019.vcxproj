@@ -29,6 +29,20 @@
   <ItemGroup>
     <ClCompile Include="..\dllmain.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\generic\clspec\gnuc.h" />
+    <ClInclude Include="..\..\include\generic\clspec\macro.h" />
+    <ClInclude Include="..\..\include\generic\clspec\mingw.h" />
+    <ClInclude Include="..\..\include\generic\clspec\msvc.h" />
+    <ClInclude Include="..\..\include\generic\clspec\uarch\arm.h" />
+    <ClInclude Include="..\..\include\generic\clspec\uarch\convex.h" />
+    <ClInclude Include="..\..\include\generic\clspec\uarch\i386.h" />
+    <ClInclude Include="..\..\include\generic\clspec\uarch\m68k.h" />
+    <ClInclude Include="..\..\include\generic\clspec\uarch\mips.h" />
+    <ClInclude Include="..\..\include\generic\clspec\uarch\ppc.h" />
+    <ClInclude Include="..\..\include\generic\context.h" />
+    <ClInclude Include="..\..\include\generic\macro.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{29587C74-60D9-42BA-8540-30D2FE23673C}</ProjectGuid>
