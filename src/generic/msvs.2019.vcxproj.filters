@@ -9,10 +9,54 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="include\clspec">
+      <UniqueIdentifier>{2e1bc259-844f-4939-9091-4454c26db9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\clspec\uarch">
+      <UniqueIdentifier>{76535cea-6276-49df-bbe1-04a4e1ee7021}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dllmain.cpp">
       <Filter>source</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\generic\clspec\uarch\arm.h">
+      <Filter>include\clspec\uarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\uarch\convex.h">
+      <Filter>include\clspec\uarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\uarch\i386.h">
+      <Filter>include\clspec\uarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\uarch\m68k.h">
+      <Filter>include\clspec\uarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\uarch\mips.h">
+      <Filter>include\clspec\uarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\uarch\ppc.h">
+      <Filter>include\clspec\uarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\context.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\gnuc.h">
+      <Filter>include\clspec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\mingw.h">
+      <Filter>include\clspec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\msvc.h">
+      <Filter>include\clspec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\clspec\macro.h">
+      <Filter>include\clspec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\generic\macro.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
